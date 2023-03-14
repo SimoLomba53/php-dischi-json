@@ -25,12 +25,12 @@
       id="app"
       class="d-flex flex-row flex-wrap justify-content-center align-items-center gap-5 p-5"
     >
-      <div v-for="ap in api">
+      <div class="singlecard p-3" v-for="ap in api">
         <div class="text-center">
           <div><img id="image" :src="ap.poster" alt="" /></div>
-          <div>{{ ap.title }}</div>
-          <div>{{ ap.author }}</div>
-          <div>{{ ap.genre }}</div>
+          <div class="text-white">{{ ap.title }}</div>
+          <div class="text-light">{{ ap.author }}</div>
+          <div class="text-white">{{ ap.genre }}</div>
         </div>
       </div>
     </div>

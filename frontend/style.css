@@ -1,3 +1,11 @@
+body {
+  background-color: #1d2d3c;
+}
+
+.singlecard {
+  background-color: #112030;
+}
+
 #image {
   width: 350px;
 }
